@@ -14,7 +14,7 @@
                 <li><a href="#sobre">Sobre</a></li>
                 <li><a href="#projetos">Projetos</a></li>
                 <li><a href="#contato">Contato</a></li>
-                <li><button type="button" id="btn-tema">Modo Escuro</button></li>
+                <li><button id="btn-tema">Escuro</button></li>
             </ul>
         </nav>
     </header>
@@ -28,23 +28,12 @@
 
         <section id="projetos">
             <h2>Meus Projetos</h2>
-            <div class="projetos-container">
-                <article class="card-projeto">
-                    <h3>Projeto 01 - E-commerce</h3>
-                    <p>Uma loja virtual feita com HTML.</p>
-                    <a href="#">Ver no GitHub</a>
-                </article>
-                <article class="card-projeto">
-                    <h3>Projeto 02 - Portifólio</h3>
-                    <p>Meu portifólio de apresentação feito com HTML.</p>
-                    <a href="#">Ver no GitHub</a>
-                </article>
-            </div>
+            <div class="projetos-container"></div>
         </section>
 
         <section id="contato">
             <h2>Contato</h2>
-            <form action="#" method="post">
+            <form action="#" method="post" id="meu-formulario">
                 <div class="campo">
                     <label for="nome">Nome:</label>
                     <input type="text" id="nome" required>
@@ -64,8 +53,9 @@
     </main>
 
     <footer>
-        <p>2026 - Desenvolvido por Pedro Alex</p>
+        <p>&copy; 2026 - Desenvolvido por Pedro Alex</p>
     </footer>
+    
     <script src="js/script.js"></script>
 </body>
 </html>
